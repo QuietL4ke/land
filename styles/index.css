@@ -77,3 +77,77 @@ body{
 .logo{
 	padding: 10px;
 }
+
+
+.text{
+		height: 393px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		letter-spacing: 0.2px;
+		font-family: 'Roboto';
+		color: #FFFFFF;
+		font-weight: 500;
+		font-style: normal;
+}
+
+header{
+	text-align: center;
+	font-size: 80px;
+	line-height: 88px;
+	max-width: 709px;
+	margin-bottom: 31px;
+}
+
+.subheader{
+	max-width: 582px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.buttons{
+	margin: 31px auto 0px auto;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	width: 387px;
+	max-height: 65px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 25px;
+	letter-spacing: 0.2px;
+	color: #FFFFFF;
+
+}
+
+.buttons .try{
+	background: #4452FE;
+	width: 178px;
+	height: 65px;
+	padding: 10px 30px;
+	box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+	color: #FFFFFF;
+}
+
+.buttons .learn{
+	border: 1px solid #FFFFFF;
+	width: 174px;
+	height: 65px;
+	box-sizing: border-box;
+	padding: 10px 30px;
+	filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+	background: #181818;
+	color: #FFFFFF;
+}
+
+
+button{
+	cursor: pointer;
+}
