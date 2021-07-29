@@ -48,7 +48,7 @@ body{
 }
 
 .menu .link:nth-child(4){
-	padding: 10px;
+	margin-right: 0px;
 }
 
 .login{
