@@ -1,6 +1,8 @@
 body{
 	background: #181818;
 	margin:  0px;
+	font-family: 'Roboto';
+	color: #FFFFFF;
 }
 
 .navbar {
@@ -11,8 +13,6 @@ body{
 	justify-content: space-around;
 	align-items: center;
 	margin: 0 auto;
-	font-family: 'Roboto';
-	color: #FFFFFF;
 	font-size: 16px;
 	font-weight: 500;
 	letter-spacing: 0.2px;
@@ -54,9 +54,9 @@ body{
 .login{
 	background: #181818;
 	font-size: 17px;
-	color: #FFFFFF;
 	padding: 13.5px 46px;
 	border: 1px solid #FFFFFF;
+	color: #FFFFFF;
 	box-sizing: border-box;
 	line-height: 25px;
 	filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
@@ -74,7 +74,6 @@ header{
 		justify-content: center;
 		align-items: center;
 		letter-spacing: 0.2px;
-		font-family: 'Roboto';
 		color: #FFFFFF;
 		margin-top: 35px;
 		font-weight: 500;
@@ -100,17 +99,12 @@ header h2{
 	margin: 31px auto 0px auto;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
-	align-content: center;
-	max-width: 387px;
-	font-family: 'Roboto';
+	align-items: center;	
 	font-style: normal;
 	font-weight: 500;
 	font-size: 17px;
 	line-height: 25px;
 	letter-spacing: 0.2px;
-	color: #FFFFFF;
-
 }
 
 .buttons .try{
