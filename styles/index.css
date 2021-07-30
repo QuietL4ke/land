@@ -11,7 +11,6 @@ body{
 	justify-content: space-around;
 	align-items: center;
 	margin: 0 auto;
-
 	font-family: 'Roboto';
 	color: #FFFFFF;
 	font-size: 16px;
@@ -103,8 +102,7 @@ header{
 	justify-content: space-between;
 	align-items: center;
 	align-content: center;
-	width: 387px;
-	max-height: 65px;
+	max-width: 387px;
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 500;
@@ -117,6 +115,7 @@ header{
 
 .buttons .try{
 	background: #4452FE;
+	font-family: 'Roboto';
 	height: 65px;
 	width: 178px;
 	padding: 20px 40px;
@@ -126,6 +125,7 @@ header{
 
 .buttons .learn{
 	border: 1px solid #FFFFFF;
+	font-family: 'Roboto';
 	box-sizing: border-box;
 	width: 174px;
 	height: 65px;
