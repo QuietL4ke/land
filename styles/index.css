@@ -1,5 +1,6 @@
 body{
 	background: #181818;
+	margin:  0px;
 }
 
 .navbar {
@@ -22,10 +23,9 @@ body{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	max-width: 393px;
 	font-size: 16px;
-	max-height: 44px;
-	
+	position: relative;
+    left: -37px;
 }
 
 .menu a:link{
@@ -41,32 +41,21 @@ body{
 	color: #FFFFFF;
 }
 
-.menu .link14{
+
+.menu .link{
 	padding: 10px;
-	line-height: 24px;
-	font-weight: 500;
-}
-.menu .link2 {
-	padding: 10px;
-	margin-left: 31px;
+	margin-right: 31px;
 	line-height: 24px;
 }
 
-.menu .link3{
-	padding: 10px;
-	margin-left: 31px;
-	font-weight: 500;
-	margin-right: 31px;
-	line-height: 24px;
+.menu .link:nth-child(4){
+	margin-right: 0px;
 }
 
 .login{
 	background: #181818;
 	font-size: 17px;
 	color: #FFFFFF;
-	max-width: 139px;
-	width: 139px;
-	height: 52px;
 	padding: 13.5px 46px;
 	border: 1px solid #FFFFFF;
 	box-sizing: border-box;
@@ -150,3 +139,4 @@ header{
 button{
 	cursor: pointer;
 }
+
