@@ -1,5 +1,6 @@
 body{
 	background: #181818;
+	margin:  0px;
 }
 
 .navbar {
@@ -22,9 +23,7 @@ body{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	max-width: 393px;
 	font-size: 16px;
-	max-height: 44px;
 	position: relative;
     left: -37px;
 }
