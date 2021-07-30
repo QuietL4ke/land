@@ -1,6 +1,8 @@
 body{
 	background: #181818;
 	margin:  0px;
+	font-family: 'Roboto';
+	color: #FFFFFF;
 }
 
 .navbar {
@@ -11,9 +13,6 @@ body{
 	justify-content: space-around;
 	align-items: center;
 	margin: 0 auto;
-
-	font-family: 'Roboto';
-	color: #FFFFFF;
 	font-size: 16px;
 	font-weight: 500;
 	letter-spacing: 0.2px;
@@ -41,6 +40,7 @@ body{
 	color: #FFFFFF;
 }
 
+
 .menu .link{
 	padding: 10px;
 	margin-right: 31px;
@@ -54,9 +54,9 @@ body{
 .login{
 	background: #181818;
 	font-size: 17px;
-	color: #FFFFFF;
 	padding: 13.5px 46px;
 	border: 1px solid #FFFFFF;
+	color: #FFFFFF;
 	box-sizing: border-box;
 	line-height: 25px;
 	filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
@@ -65,3 +65,74 @@ body{
 .logo{
 	padding: 10px;
 }
+
+
+header{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		letter-spacing: 0.2px;
+		color: #FFFFFF;
+		margin-top: 35px;
+		font-weight: 500;
+		font-style: normal;
+}
+
+header h1{
+	text-align: center;
+	font-size: 80px;
+	line-height: 88px;
+	max-width: 709px;
+	margin-bottom: 31px;
+}
+
+header h2{
+	max-width: 582px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.buttons{
+	margin: 31px auto 0px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;	
+	font-style: normal;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 25px;
+	letter-spacing: 0.2px;
+}
+
+.buttons .try{
+	background: #4452FE;
+	border: none;
+	font-family: 'Roboto';
+	height: 65px;
+	width: 178px;
+	margin-right: 35px;
+	padding: 20px 40px;
+	box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+	color: #FFFFFF;
+}
+
+.buttons .learn{
+	border: 1px solid #FFFFFF;
+	font-family: 'Roboto';
+	box-sizing: border-box;
+	width: 174px;
+	height: 65px;
+	padding: 20px 40px;
+	filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+	background: #181818;
+	color: #FFFFFF;
+}
+
+
+button{
+	cursor: pointer;
+}
+
