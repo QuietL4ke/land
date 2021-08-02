@@ -68,16 +68,16 @@ body{
 
 
 header{
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		letter-spacing: 0.2px;
-		color: #FFFFFF;
-		margin-top: 35px;
-		font-weight: 500;
-		font-style: normal;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 0.2px;
+	color: #FFFFFF;
+	margin-top: 35px;
+	font-weight: 500;
+	font-style: normal;
 }
 
 header h1{
@@ -85,7 +85,8 @@ header h1{
 	font-size: 80px;
 	line-height: 88px;
 	max-width: 709px;
-	margin-bottom: 31px;
+	margin-top: 60px;
+	margin-bottom: 27px;
 }
 
 header h2{
@@ -96,7 +97,7 @@ header h2{
 }
 
 .buttons{
-	margin: 31px auto 0px auto;
+	margin: 95px auto 0px auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;	
@@ -110,7 +111,6 @@ header h2{
 .buttons .try{
 	background: #4452FE;
 	border: none;
-	font-family: 'Roboto';
 	height: 65px;
 	width: 178px;
 	margin-right: 35px;
@@ -121,7 +121,6 @@ header h2{
 
 .buttons .learn{
 	border: 1px solid #FFFFFF;
-	font-family: 'Roboto';
 	box-sizing: border-box;
 	width: 174px;
 	height: 65px;
@@ -131,8 +130,70 @@ header h2{
 	color: #FFFFFF;
 }
 
+.login-menu{
+		display: flex;
+}
 
 button{
 	cursor: pointer;
+	font-family: 'Roboto';
 }
 
+@media screen and (min-width: 600px){
+	.burger{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px){
+
+	.login{
+		padding: 12px 38px;
+	}
+
+	.navbar {
+		max-height: 107px;
+	}
+
+	.burger{
+		padding: 13.25px 11px 13.25px 16px;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	header {
+		margin-top: 57px;
+	}
+
+	header h1{
+		max-width: 294px;
+		font-size: 52px;
+		line-height: 62px;
+		font-weight: 400;
+		margin-bottom: 17px;
+		margin-top: 10px;
+	}
+
+	header h2{
+		max-width: 382px;
+		font-weight: 400;
+		text-align: center;
+	}
+
+	.buttons{
+		flex-direction: column;
+		justify-content: space-between;
+		margin-top: 67px;
+	}
+
+	.buttons .try{
+		margin-right: 0px;
+		margin-bottom: 21px;
+	}
+
+	.logo__style{
+		width: 150px;
+	}
+}
