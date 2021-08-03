@@ -102,11 +102,14 @@
 }
 
 .navbar__menu{
+	position: relative;
+    left: -37px;
+}
+
+.menu{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	position: relative;
-    left: -37px;
 }
 
 .menu__link{
@@ -149,24 +152,24 @@
 }
 
 
-.buttons__try{
+.header__buttons-try{
 	margin-right: 35px;
 }
 
-.buttons__learn{
+.header__buttons-learn{
 	padding: 20px 40px;
 }
 
-.login-menu__login{
+.navbar__login-menu__login{
 	padding: 13.5px 46px;
 }
 
-.navbar__login-menu{
+.login-menu{
 		display: flex;
 }
 
 @media screen and (min-width: 600px){
-	.login-menu__burger{
+	.navbar__login-menu__burger{
 		display: none;
 	}
 }
@@ -195,7 +198,7 @@
 		width: 150px;
 	}
 
-	.login-menu__burger{
+	.navbar__login-menu__burger{
 		padding: 13.25px 11px 13.25px 16px;
 	}
 
@@ -224,7 +227,7 @@
 		margin-top: 67px;
 	}
 
-	.buttons__try{
+	.header__buttons-try{
 		margin-right: 0px;
 		margin-bottom: 21px;
 	}
