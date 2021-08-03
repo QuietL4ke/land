@@ -160,16 +160,16 @@
 	padding: 20px 40px;
 }
 
-.navbar__login-menu__login{
+.navbar__buttons-login{
 	padding: 13.5px 46px;
 }
 
-.login-menu{
-		display: flex;
+.navbar__buttons{
+	display: flex;
 }
 
 @media screen and (min-width: 600px){
-	.navbar__login-menu__burger{
+	.navbar__buttons-burger{
 		display: none;
 	}
 }
@@ -198,7 +198,7 @@
 		width: 150px;
 	}
 
-	.navbar__login-menu__burger{
+	.navbar__buttons-burger{
 		padding: 13.25px 11px 13.25px 16px;
 	}
 
