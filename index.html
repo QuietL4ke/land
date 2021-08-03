@@ -7,32 +7,30 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <title>Title</title>
     </head>
-    <body>
+    <body class = "body">
         <nav class = "navbar">
-            <div class = "logo">
-                <img src="images/logo.png" class="logo__style">
+            <img src="images/logo.png" class="navbar__logo">
+            <div class="navbar__menu menu">
+                <a href="#" class="link menu__link">Home</a>
+                <a href="#" class="link menu__link">Product</a>
+                <a href="#" class="link menu__link">About</a>
+                <a href="#" class="link menu__link">Contact</a>
             </div>
-            <div class="menu">
-                <a href="#" class = "link">Home</a>
-                <a href="#" class = "link">Product</a>
-                <a href="#" class = "link">About</a>
-                <a href="#" class = "link">Contact</a>
-            </div>
-            <div class="login-menu">
-              <button class="login">Login</button>
-              <img src="images/burger.svg" class = "burger">
+            <div class="navbar__buttons">
+              <button class="button button--outline navbar__buttons-login">Login</button>
+              <img src="images/burger.svg" class="navbar__buttons-burger">
             </div>
         </nav>
-          <header>
-            <h1>
+          <header class="header">
+            <h1 class="header__begin title">
               Work at the speed of thought.
             </h1>
-            <h2 class="subheader">
+            <h2 class="header__continue p">
               Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.
             </h2>
-            <div class="buttons">
-              <button class = "try"> Try for free </button>
-              <button class = "learn"> Learn more </button>
+            <div class="header__buttons">
+              <button class="button header__buttons-try"> Try for free </button>
+              <button class="button button--outline header__buttons-learn"> Learn more </button>
             </div>
           </header>
         <footer>

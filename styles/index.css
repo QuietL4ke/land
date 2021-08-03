@@ -1,9 +1,91 @@
-body{
+.body{
 	background: #181818;
 	margin:  0px;
+}
+
+/*...........styles...........*/
+
+.link{
 	font-family: 'Roboto';
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+	text-align: left;
+	line-height: 24px;
+}
+
+.link:link{
+	text-decoration: none;
 	color: #FFFFFF;
 }
+.link:visited{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.link:active{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.title{
+	font-size: 80px;
+	line-height: 88px;
+	font-family: 'Roboto';
+	color: #FFFFFF;
+	font-weight: 500;
+	font-style: normal;
+	letter-spacing: 0.2px;
+}
+
+.subtitle{
+	font-size: 52px;
+	line-height: 62px;
+	font-family: 'Roboto';
+	color: #FFFFFF;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: 0.2px;
+}
+
+.p{
+	font-size: 20px;
+	line-height: 30px;
+	font-family: 'Roboto';
+	color: #FFFFFF;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: 0.2px;
+}
+
+.button{
+	cursor: pointer;
+	font-family: 'Roboto';
+	line-height: 25px;
+	font-size: 17px;
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: 0.2px;
+	background: #4452FE;
+	border: none;
+	box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+	padding: 20px 40px;
+}
+
+.button--outline{
+	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+	box-shadow: none;
+	background: #181818;
+	padding: 13.5px 40px;
+}
+
+
+
+/*...........blocks...........*/
 
 .navbar {
 	display: flex;
@@ -13,141 +95,98 @@ body{
 	justify-content: space-around;
 	align-items: center;
 	margin: 0 auto;
-	font-size: 16px;
-	font-weight: 500;
-	letter-spacing: 0.2px;
+}
+
+.navbar__logo{
+	padding: 10px;
+}
+
+.navbar__menu{
+	position: relative;
+    left: -37px;
 }
 
 .menu{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	font-size: 16px;
-	position: relative;
-    left: -37px;
 }
 
-.menu a:link{
-	text-decoration: none;
-	color: #FFFFFF;
-}
-.menu a:visited{
-	text-decoration: none;
-	color: #FFFFFF;
-}
-.menu a:active{
-	text-decoration: none;
-	color: #FFFFFF;
-}
-
-
-.menu .link{
+.menu__link{
 	padding: 10px;
 	margin-right: 31px;
-	line-height: 24px;
 }
 
-.menu .link:nth-child(4){
+.menu__link:nth-child(4){
 	margin-right: 0px;
 }
 
-.login{
-	background: #181818;
-	font-size: 17px;
-	padding: 13.5px 46px;
-	border: 1px solid #FFFFFF;
-	color: #FFFFFF;
-	box-sizing: border-box;
-	line-height: 25px;
-	filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
-}
-
-.logo{
-	padding: 10px;
-}
 
 
-header{
+.header{
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	letter-spacing: 0.2px;
-	color: #FFFFFF;
 	margin-top: 35px;
-	font-weight: 500;
-	font-style: normal;
 }
 
-header h1{
+.header__begin{
 	text-align: center;
-	font-size: 80px;
-	line-height: 88px;
 	max-width: 709px;
 	margin-top: 60px;
 	margin-bottom: 27px;
 }
 
-header h2{
+.header__continue{
 	max-width: 582px;
 	text-align: center;
-	font-size: 20px;
-	line-height: 30px;
 }
 
-.buttons{
-	margin: 95px auto 0px auto;
+.header__buttons{
+	margin: 65px auto 0px auto;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;	
-	font-style: normal;
-	font-weight: 500;
-	font-size: 17px;
-	line-height: 25px;
-	letter-spacing: 0.2px;
+	align-items: center;
 }
 
-.buttons .try{
-	background: #4452FE;
-	border: none;
-	height: 65px;
-	width: 178px;
+
+.header__buttons-try{
 	margin-right: 35px;
+}
+
+.header__buttons-learn{
 	padding: 20px 40px;
-	box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
-	color: #FFFFFF;
 }
 
-.buttons .learn{
-	border: 1px solid #FFFFFF;
-	box-sizing: border-box;
-	width: 174px;
-	height: 65px;
-	padding: 20px 40px;
-	filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
-	background: #181818;
-	color: #FFFFFF;
+.navbar__buttons-login{
+	padding: 13.5px 46px;
 }
 
-.login-menu{
-		display: flex;
-}
-
-button{
-	cursor: pointer;
-	font-family: 'Roboto';
+.navbar__buttons{
+	display: flex;
 }
 
 @media screen and (min-width: 600px){
-	.burger{
+	.navbar__buttons-burger{
 		display: none;
 	}
 }
 
 @media screen and (max-width: 600px){
 
-	.login{
+	/*...........styles...........*/
+	
+	.title{
+		font-size: 52px;
+		line-height: 62px;
+		font-weight: 400;
+	}
+
+	/*...........blocks...........*/
+
+	.login-menu__login{
 		padding: 12px 38px;
 	}
 
@@ -155,45 +194,41 @@ button{
 		max-height: 107px;
 	}
 
-	.burger{
+	.navbar__logo{
+		width: 150px;
+	}
+
+	.navbar__buttons-burger{
 		padding: 13.25px 11px 13.25px 16px;
 	}
 
-	.menu {
+	.navbar__menu {
 		display: none;
 	}
 
-	header {
+	.header {
 		margin-top: 57px;
 	}
 
-	header h1{
+	.header__begin{
 		max-width: 294px;
-		font-size: 52px;
-		line-height: 62px;
-		font-weight: 400;
 		margin-bottom: 17px;
 		margin-top: 10px;
 	}
 
-	header h2{
+	.header__continue{
 		max-width: 382px;
-		font-weight: 400;
 		text-align: center;
 	}
 
-	.buttons{
+	.header__buttons{
 		flex-direction: column;
 		justify-content: space-between;
 		margin-top: 67px;
 	}
 
-	.buttons .try{
+	.header__buttons-try{
 		margin-right: 0px;
 		margin-bottom: 21px;
-	}
-
-	.logo__style{
-		width: 150px;
 	}
 }
