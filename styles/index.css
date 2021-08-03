@@ -59,8 +59,7 @@
 	letter-spacing: 0.2px;
 }
 
-
-button{
+.button{
 	cursor: pointer;
 	font-family: 'Roboto';
 	line-height: 25px;
@@ -69,19 +68,17 @@ button{
 	font-style: normal;
 	font-weight: 500;
 	letter-spacing: 0.2px;
-}
-
-.button{
 	background: #4452FE;
 	border: none;
 	box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
 	padding: 20px 40px;
 }
 
-.button-outline{
+.button--outline{
 	border: 1px solid #FFFFFF;
 	box-sizing: border-box;
 	filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+	box-shadow: none;
 	background: #181818;
 	padding: 13.5px 40px;
 }
@@ -100,7 +97,11 @@ button{
 	margin: 0 auto;
 }
 
-.menu{
+.navbar__logo{
+	padding: 10px;
+}
+
+.navbar__menu{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -113,13 +114,10 @@ button{
 	margin-right: 31px;
 }
 
-.menu .link:nth-child(4){
+.menu__link:nth-child(4){
 	margin-right: 0px;
 }
 
-.logo{
-	padding: 10px;
-}
 
 
 .header{
@@ -131,19 +129,19 @@ button{
 	margin-top: 35px;
 }
 
-header h1{
+.header__begin{
 	text-align: center;
 	max-width: 709px;
 	margin-top: 60px;
 	margin-bottom: 27px;
 }
 
-header h2{
+.header__continue{
 	max-width: 582px;
 	text-align: center;
 }
 
-.buttons{
+.header__buttons{
 	margin: 65px auto 0px auto;
 	display: flex;
 	justify-content: space-between;
@@ -151,24 +149,24 @@ header h2{
 }
 
 
-.button__try{
+.buttons__try{
 	margin-right: 35px;
 }
 
-.button__learn{
+.buttons__learn{
 	padding: 20px 40px;
 }
 
-.button__login{
+.login-menu__login{
 	padding: 13.5px 46px;
 }
 
-.login-menu{
+.navbar__login-menu{
 		display: flex;
 }
 
 @media screen and (min-width: 600px){
-	.burger{
+	.login-menu__burger{
 		display: none;
 	}
 }
@@ -185,7 +183,7 @@ header h2{
 
 	/*...........blocks...........*/
 
-	.button__login{
+	.login-menu__login{
 		padding: 12px 38px;
 	}
 
@@ -193,11 +191,15 @@ header h2{
 		max-height: 107px;
 	}
 
-	.burger{
+	.navbar__logo{
+		width: 150px;
+	}
+
+	.login-menu__burger{
 		padding: 13.25px 11px 13.25px 16px;
 	}
 
-	.menu {
+	.navbar__menu {
 		display: none;
 	}
 
@@ -205,29 +207,25 @@ header h2{
 		margin-top: 57px;
 	}
 
-	header h1{
+	.header__begin{
 		max-width: 294px;
 		margin-bottom: 17px;
 		margin-top: 10px;
 	}
 
-	header h2{
+	.header__continue{
 		max-width: 382px;
 		text-align: center;
 	}
 
-	.buttons{
+	.header__buttons{
 		flex-direction: column;
 		justify-content: space-between;
 		margin-top: 67px;
 	}
 
-	.button__try{
+	.buttons__try{
 		margin-right: 0px;
 		margin-bottom: 21px;
-	}
-
-	.logo__style{
-		width: 150px;
 	}
 }
