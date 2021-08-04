@@ -168,6 +168,26 @@
 	display: flex;
 }
 
+
+.screens{
+	margin-top: 35px;
+	display: flex;
+	justify-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.gradient{
+	position: relative;
+	top: -400px;
+	height: 551px;
+}
+
+.gradient--style{
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 66.15%);
+}
+
+
 @media screen and (min-width: 600px){
 	.navbar__buttons-burger{
 		display: none;
@@ -231,4 +251,19 @@
 		margin-right: 0px;
 		margin-bottom: 21px;
 	}
+
+
+
+	.screens--style{
+		width: 600px;
+	}
+
+	.gradient{
+		height: 328px;
+		top: -232px;
+	}
+	.gradient--style{
+		background: linear-gradient(180deg, rgba(30, 30, 30, 0) 0%, #0E0E0E 100%);
+	}
+
 }
