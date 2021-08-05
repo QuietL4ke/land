@@ -204,6 +204,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-bottom: 100px;
 }
 
 .features__p{
@@ -213,6 +214,7 @@
 
 .features__explanation{
 	margin-top: 80px;
+	margin-bottom: 62px;
 }
 
 .explanation{
@@ -268,7 +270,96 @@
 }
 
 
+.contents{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 60px;
+	margin-bottom: 50px
+}
 
+
+.contents__subtitle{
+	text-align: center;
+}
+
+.contents__p{
+	text-align: center;
+	width: 560px;
+	margin-top: 10px;
+}
+
+.contents__tabs{
+	margin-top: 44px;
+}
+
+.tabs{
+	display: flex;
+	width: 985px;
+}
+
+.tabs__tab1{
+	margin: 0px 33px 0px 0px;
+}
+
+.tabs__tab2{
+	margin: 0px;
+}
+
+.tab{
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+	background: #FFFFFF;
+	border: 1px solid #D3D3D3;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+	border-radius: 10px;
+	padding: 40px 0px;
+
+}
+
+.tab__title{
+	margin-top: 10px;
+	color: #000000;
+	font-weight: 500;
+	letter-spacing: 0.1px;
+	text-align: center;
+}
+
+.tab__subtitle{
+	margin-top: 20px;
+	max-width: 268px;
+	text-align: center;
+	color: #5C5C5C;
+}
+
+.tab1__button{
+	margin-top: 57px;
+}
+
+.tab2__button{
+	margin-top: 30px;
+}
+
+.button--tab{
+	padding: 13.5px 46px; 
+}
+
+.tab1__img{
+	margin-top: 57px;
+	width: 405.13px;
+	height: 226.52px;
+	padding: 0px 35.44px;
+}
+
+.tab2__img{
+	margin-top: 30px;
+	width: 379px;
+	height: 276px;
+	padding: 0px 48.5px;
+}
 
 @media screen and (min-width: 600px){
 	.navbar__buttons-burger{
