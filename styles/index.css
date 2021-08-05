@@ -449,6 +449,7 @@
 
 	.features__p{
 		margin-top: 27px;
+		max-width: 400px;
 	}
 
 	.features__explanation{
@@ -482,4 +483,37 @@
 		margin-top: 57px;
 		margin-left: 10px;
 	}
+
+
+	.contents__p{
+		max-width: 288px;
+	}
+
+	.tabs{
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: unset;
+		align-items: center;
+	}
+
+	.tabs__tab1{
+		margin: 0px;
+	}
+
+	.tabs__tab2{
+		margin-top: 33px;
+	}
+
+	.tab1__img{
+		width: 297.03px;
+		height: 174.96px;
+		padding: 0px 25.48px;
+	}
+
+	.tab2__img{
+		width: 280px;
+		height: 204px;
+		padding: 0px 36.5px;
+	}
+
 }
