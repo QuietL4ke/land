@@ -353,7 +353,7 @@
 }
 
 .tab2__img{
-	margin-top: 30px;
+	margin-top: auto;
 	padding: 0px 48.5px;
 }
 
@@ -396,13 +396,13 @@
 	justify-content: space-between;
 }
 
-.cards__card{
+.cards__item{
 	margin-right: 33px;
 	box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
 	border-radius: 12px;
 }
 
-.cards__card--last{
+.cards__item--last{
 	margin-right: 0px;
 }
 
@@ -566,6 +566,7 @@
 	}
 
 	.tab2__img{
+		margin-top: 33px;
 		width: 280px;
 		height: 204px;
 		padding: 0px 36.5px;
@@ -585,12 +586,12 @@
 		justify-content: space-between;
 	}
 
-	.cards__card{
+	.cards__item{
 		margin-bottom: 33px;
 		margin-right: 0px;
 	}
 
-	.cards__card--last{
+	.cards__item--last{
 		margin-bottom: 0px;
 	}
 
