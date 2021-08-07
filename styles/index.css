@@ -413,6 +413,56 @@
 
 
 
+.partners{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 100px;
+	padding: 50px 20px;
+}
+
+.partners__subtitle{
+	text-align: center;
+}
+
+.partners__p{
+	text-align: center;
+	max-width: 591px;
+}
+
+
+.partners__icons{
+	margin-top: 50px;
+}
+
+.icons{
+	display: flex;
+	max-width: 832px;
+}
+
+.icons__item{
+	margin-right: 74px;
+}
+
+.icons__block2 .icons__item:nth-child(3){
+	margin-right: 0px;
+}
+
+.partners__button{
+	margin-top: 50px;
+	padding: 10px 30px;
+}
+
+.icons__block1{
+	display: flex;
+	align-items: center;
+}
+
+.icons__block2{
+	display: flex;
+	align-items: center;
+}
+
 @media screen and (min-width: 600px){
 	.navbar__buttons-burger{
 		display: none;
@@ -597,5 +647,41 @@
 
 	.cards--computer{
 		display: none;
+	}
+
+
+	.partners__p{
+		max-width: 349px;
+	}
+
+	.partners__icons{
+		flex-wrap: wrap;
+		justify-content: space-between;
+		max-width: 280px;
+		/*height: 171.55px;*/
+	}
+	.icons__item{
+		margin-right: 50px;
+	}
+
+	.icons__item--telephone4{
+		width: 56px;
+		height: 46px;
+	}
+	.icons__item--telephone5{
+		width: 47px;
+		height: 51px;
+	}
+	.icons__item--telephone6{
+		width: 83px;
+		height: 33px;
+	}
+
+	.icons__block2{
+		margin-top: 50px;
+	}
+
+	.icons__item:nth-child(3){
+		margin-right: 0px;
 	}
 }
