@@ -10,7 +10,6 @@
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 500;
-	line-height: 24px;
 	letter-spacing: 0.2px;
 	text-align: left;
 	line-height: 24px;
@@ -84,6 +83,20 @@
 }
 
 
+.gradient{
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 66.15%);
+}
+
+
+.text__block--style1{
+	font-weight: 500;
+	letter-spacing: 0.1px;
+}
+
+.text__block--style2{
+	color: #FFFFFF;
+	font-weight: 400;
+}
 
 /*...........blocks...........*/
 
@@ -168,6 +181,183 @@
 	display: flex;
 }
 
+
+.screens{
+	margin-top: 35px;
+	position: relative;
+	display: flex;
+	justify-items: center;
+	justify-content: center;
+	overflow: hidden;
+	height: 993px;
+}
+
+.screens__gradient{
+	position: absolute;
+	top: 440px;
+	height: 551px;
+	width: 100%;
+}
+
+.features{
+	margin-top: 62px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+.features__p{
+	max-width: 582px;
+	text-align: center;
+}
+
+.features__explanation{
+	margin-top: 80px;
+	margin-bottom: 62px;
+}
+
+.explanation{
+	display: flex;
+	flex-direction: row;
+	max-width: 1088px;
+}
+
+
+.expanation__pic{
+	display: flex;
+	height: 710px;
+	flex-direction: column;
+	position: relative;
+}
+
+.expanation__pic-first{
+	width: 696px;
+	height: 659px;
+}
+
+.expanation__pic-second{
+	position: absolute;
+	width: 400px;
+	top: 433px;
+	left: 297px;
+	height: 276px;
+}
+
+.explanation__text{
+	margin-top: 84px;
+	margin-left: 27px;
+}
+
+.text__block-logo{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	margin-bottom: 20px;
+}
+
+.block--style1{
+	margin-left: 13px;
+	max-width: 153px;
+}
+
+.block--style2{
+	max-width: 249px;
+}
+
+.text__block{
+	margin-bottom: 50px;
+}
+
+
+.contents{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 60px;
+	margin-bottom: 50px
+}
+
+
+.contents__subtitle{
+	text-align: center;
+}
+
+.contents__p{
+	text-align: center;
+	width: 560px;
+	margin-top: 10px;
+}
+
+.contents__tabs{
+	margin-top: 44px;
+}
+
+.tabs{
+	display: flex;
+	width: 985px;
+}
+
+.tabs__tab1{
+	margin: 0px 33px 0px 0px;
+}
+
+.tabs__tab2{
+	margin: 0px;
+}
+
+.tab{
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+	background: #FFFFFF;
+	border: 1px solid #D3D3D3;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+	border-radius: 10px;
+	padding: 40px 0px;
+
+}
+
+.tab__title{
+	margin-top: 10px;
+	color: #000000;
+	font-weight: 500;
+	letter-spacing: 0.1px;
+	text-align: center;
+}
+
+.tab__subtitle{
+	margin-top: 20px;
+	max-width: 268px;
+	text-align: center;
+	color: #5C5C5C;
+}
+
+.tab1__button{
+	margin-top: 57px;
+}
+
+.tab2__button{
+	margin-top: 30px;
+}
+
+.button--tab{
+	padding: 13.5px 46px; 
+}
+
+.tab1__img{
+	margin-top: 57px;
+
+	padding: 0px 35.44px;
+}
+
+.tab2__img{
+	margin-top: 30px;
+	padding: 0px 48.5px;
+}
+
 @media screen and (min-width: 600px){
 	.navbar__buttons-burger{
 		display: none;
@@ -182,6 +372,14 @@
 		font-size: 52px;
 		line-height: 62px;
 		font-weight: 400;
+	}
+
+	.gradient{
+		background: linear-gradient(180deg, rgba(30, 30, 30, 0) 0%, #0E0E0E 100%);
+	}
+
+	.screens--style{
+		width: 600px;
 	}
 
 	/*...........blocks...........*/
@@ -231,4 +429,88 @@
 		margin-right: 0px;
 		margin-bottom: 21px;
 	}
+
+	.gradient{
+		height: 328px;
+		top: 127px;
+	}
+
+	.screens{
+		margin-top: 55px;
+		height: 453px;
+	}
+
+	.features{
+		margin-top: 163px;
+	}
+
+	.features__p{
+		margin-top: 27px;
+		max-width: 400px;
+	}
+
+	.features__explanation{
+		max-width: 376px;
+		margin-top: 28px;
+		flex-wrap: wrap;
+	}
+
+	.explanation{
+		justify-content: center;
+	}
+
+
+	.expanation__pic{
+		height: 370px;
+	}
+
+	.expanation__pic-first{
+		width: 324px;
+		height: 319px;
+	}
+
+	.expanation__pic-second{
+		width: 232px;
+		height: 160px;
+		top: 202px;
+    	left: 47px;
+	}
+
+	.explanation__text{
+		margin-top: 57px;
+		margin-left: 10px;
+	}
+
+
+	.contents__p{
+		max-width: 288px;
+	}
+
+	.tabs{
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: unset;
+		align-items: center;
+	}
+
+	.tabs__tab1{
+		margin: 0px;
+	}
+
+	.tabs__tab2{
+		margin-top: 33px;
+	}
+
+	.tab1__img{
+		width: 297.03px;
+		height: 174.96px;
+		padding: 0px 25.48px;
+	}
+
+	.tab2__img{
+		width: 280px;
+		height: 204px;
+		padding: 0px 36.5px;
+	}
+
 }
