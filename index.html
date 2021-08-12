@@ -1,134 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="styles/index.css" />
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-        <title>Title</title>
-    </head>
-    <body class = "body">
-        <nav class = "navbar">
-            <img src="images/logo.png" class="navbar__logo">
-            <div class="navbar__menu menu">
-                <a href="#" class="link menu__link">Home</a>
-                <a href="#" class="link menu__link">Product</a>
-                <a href="#" class="link menu__link">About</a>
-                <a href="#" class="link menu__link">Contact</a>
-            </div>
-            <div class="navbar__buttons">
-              <button class="button button--outline navbar__buttons-login">Login</button>
-              <img src="images/burger.svg" class="navbar__buttons-burger">
-            </div>
-        </nav>
-          <header class="header">
-            <h1 class="header__begin title">
-              Work at the speed of thought.
-            </h1>
-            <h2 class="header__continue p">
-              Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.
-            </h2>
-            <div class="header__buttons">
-              <button class="button header__buttons-try"> Try for free </button>
-              <button class="button button--outline header__buttons-learn"> Learn more </button>
-            </div>
-          </header>
-          <div class="screens">
-             <img src="images/screens.png" class="screens--style">
-             <div class="screens__gradient gradient"></div>
-          </div>
-          
-          <div class="features">
-            <h1 class="subtitle features__subtitle">
-                FEATURES
-            </h1>
-            <h2 class="p features__p">
-                Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.
-            </h2>
-            <div class="features__explanation explanation">
-                <div class="expanation__pic">
-                    <img src="images/block2_1pic.png" class="expanation__pic-first">
-                    <img src="images/block2_2pic.png" class="expanation__pic-second">
-                </div>
-                <div class="explanation__text">
-                    <div class="text__block">
-                        <div class="text__block-logo">
-                          <img src="images/block2_1ico.svg">
-                          <div class="p text__block--style1 block--style1">A single source of truth</div>
-                        </div>
-                        <div class="link text__block--style2 block--style2">When you add work to your Slate calendar we automatically calculate useful insights</div>
-                    </div>
-                    <div class="text__block">
-                        <div class="text__block-logo">
-                          <img src="images/block2_2ico.svg">
-                          <div class="p text__block--style1 block--style1">Intuitive interface</div>
-                        </div>
-                        <div class="link text__block--style2 block--style2">When you add work to your Slate calendar we automatically calculate useful insights</div>
-                    </div>
-                    <div class="text__block">
-                        <div class="text__block-logo">
-                          <img src="images/block2_3ico.svg">
-                          <div class="p text__block--style1 block--style1">Or with rules</div>
-                        </div>
-                        <div class="link text__block--style2 block--style2">When you add work to your Slate calendar we automatically calculate useful insights</div>
-                    </div>
-                </div>
-            </div>
-          </div>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Title</title>
+</head>
+<body class = "body">
+    <nav class = "navbar">
+        <img src="images/navbar/logo.png" class="navbar__logo">
+        <div class="navbar__menu menu">
+            <a href="#" class="link menu__link">Home</a>
+            <a href="#" class="link menu__link">Product</a>
+            <a href="#" class="link menu__link">About</a>
+            <a href="#" class="link menu__link">Contact</a>
+        </div>
+        <div class="navbar__buttons">
+          <button class="button button--outline navbar__buttons-login">Login</button>
+          <img src="images/navbar/burger.svg" class="navbar__buttons-burger">
+      </div>
+  </nav>
+  <header class="header">
+    <h1 class="header__begin title">
+      Work at the speed of thought.
+  </h1>
+  <h2 class="header__continue p">
+      Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.
+  </h2>
+  <div class="header__buttons">
+      <button class="button header__buttons-try"> Try for free </button>
+      <button class="button button--outline header__buttons-learn"> Learn more </button>
+  </div>
+</header>
+<div class="screens">
+   <img src="images/screens/screens.png" class="screens--style">
+   <div class="screens__gradient gradient"></div>
+</div>
 
-          <div class="contents">
-            <h1 class="subtitle contents__subtitle">
-                Contents
-            </h1>
-            <h2 class="p contents__p">
-                We focus on ergonomics and meeting you where you work. It's only a keystroke away.
-            </h2>
-            <div class="contents__tabs tabs">
-                <div class="tabs__tab1 tab">
-                    <h1 class="p tab__title">Work</h1>
-                    <h2 class="link tab__subtitle">Ever wondered if you're too reliant on a client for work? Slate helps you identify.</h2>
-                    <button class="button tab1__button button--tab">Sign up</button>
-                    <img src="images/macPro.png" class="tab1__img">
-                </div>
-                <div class="tabs__tab2 tab">
-                    <h1 class="p tab__title">Design with real data</h1>
-                    <h2 class="link tab__subtitle">Ever wondered if you're too reliant on a client for work? Slate helps you identify.</h2>
-                    <button class="button tab2__button button--tab">Try For Free</button>
-                    <img src="images/block3_tab2.png" class="tab2__img">
-                </div>
+<div class="section">
+    <div class="flexbox-ver features">
+        <h1 class="subtitle features__subtitle">
+            FEATURES
+        </h1>
+        <h2 class="p features__p">
+            Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.
+        </h2>
+        <div class="features__explanation flexbox-hor explanation">
+            <div class="flexbox-ver expanation__pic">
+                <img src="images/features/block2_1pic.png" class="expanation__pic-first">
+                <img src="images/features/block2_2pic.png" class="expanation__pic-second">
             </div>
-          </div>
-
-          <div class="block4">
-              <div class="block4__gallery gallery">
-                  <h1 class="subtitle gallery__subtitle">
-                    Gallery
-                  </h1>
-                  <h2 class="p gallery__p">
-                      We focus on ergonomics and meeting you where you work. It's only a keystroke away.
-                  </h2>
-                  <div class ="gallery__cards cards cards--computer">
-                      <img src="images/cards1/Card_1.png" class="cards__item">
-                      <img src="images/cards1/Card_2.png" class="cards__item">
-                      <img src="images/cards1/Card_3.png" class="cards__item">
-                      <img src="images/cards1/Card_4.png" class="cards__item cards__item--last">
+            <div class="explanation__text">
+                <div class="text__block">
+                    <div class="flexbox-hor text__block-logo">
+                      <img src="images/icons/features/block2_1ico.svg">
+                      <div class="p text__block--style1 block--style1">A single source of truth</div>
                   </div>
-                  <div class ="gallery__cards cards cards--computer">
-                      <img src="images/cards2/Card_1.png" class="cards__item">
-                      <img src="images/cards2/Card_2.png" class="cards__item">
-                      <img src="images/cards2/Card_3.png" class="cards__item cards__item--last">
-                  </div>
-                  <div class ="gallery__cards cards cards--telephone">
-                      <img src="images/cards3/Card_1.png" class="cards__item">
-                      <img src="images/cards3/Card_2.png" class="cards__item">
-                      <img src="images/cards3/Card_3.png" class="cards__item">
-                      <img src="images/cards3/Card_4.png" class="cards__item cards__item--last">
-                  </div>
-                  <button class="button button--outline gallery__button">See more</button>
+                  <div class="link text__block--style2 block--style2">When you add work to your Slate calendar we automatically calculate useful insights</div>
               </div>
+              <div class="text__block">
+                <div class="text__block-logo">
+                  <img src="images/icons/features/block2_2ico.svg">
+                  <div class="p text__block--style1 block--style1">Intuitive interface</div>
+              </div>
+              <div class="link text__block--style2 block--style2">When you add work to your Slate calendar we automatically calculate useful insights</div>
           </div>
-        <footer>
+          <div class="text__block">
+            <div class="text__block-logo">
+              <img src="images/icons/features/block2_3ico.svg">
+              <div class="p text__block--style1 block--style1">Or with rules</div>
+          </div>
+          <div class="link text__block--style2 block--style2">When you add work to your Slate calendar we automatically calculate useful insights</div>
+      </div>
+  </div>
+</div>
+</div>
+</div>
 
-        </footer>
-    </body>
+<div class="section">
+  <div class="flexbox-ver contents">
+    <h1 class="subtitle contents__subtitle">
+        Contents
+    </h1>
+    <h2 class="p contents__p">
+        We focus on ergonomics and meeting you where you work. It's only a keystroke away.
+    </h2>
+    <div class="contents__tabs flexbox-hor tabs">
+        <div class="tabs__tab1 flexbox-ver tab">
+            <h1 class="p tab__title">Work</h1>
+            <h2 class="link tab__subtitle">Ever wondered if you're too reliant on a client for work? Slate helps you identify.</h2>
+            <button class="button tab1__button button--tab">Sign up</button>
+            <img src="images/contents/macPro.png" class="tab1__img">
+        </div>
+        <div class="tabs__tab2 flexbox-ver tab">
+            <h1 class="p tab__title">Design with real data</h1>
+            <h2 class="link tab__subtitle">Ever wondered if you're too reliant on a client for work? Slate helps you identify.</h2>
+            <button class="button tab2__button button--tab">Try For Free</button>
+            <img src="images/contents/block3_tab2.png" class="tab2__img">
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="section">
+  <div class="flexbox-ver gallery">
+    <h1 class="subtitle gallery__subtitle">
+        Gallery
+    </h1>
+    <h2 class="p gallery__p">
+      We focus on ergonomics and meeting you where you work. It's only a keystroke away.
+  </h2>
+  <div class ="gallery__cards flexbox-hor cards cards--computer">
+      <img src="images/block4/cards1/Card_1.png" class="cards__item">
+      <img src="images/block4/cards1/Card_2.png" class="cards__item">
+      <img src="images/block4/cards1/Card_3.png" class="cards__item">
+      <img src="images/block4/cards1/Card_4.png" class="cards__item cards__item--last">
+  </div>
+  <div class ="gallery__cards flexbox-hor cards cards--computer">
+      <img src="images/block4/cards2/Card_1.png" class="cards__item">
+      <img src="images/block4/cards2/Card_2.png" class="cards__item">
+      <img src="images/block4/cards2/Card_3.png" class="cards__item cards__item--last">
+  </div>
+  <div class ="gallery__cards flexbox-ver cards cards--telephone">
+      <img src="images/block4/cards3/Card_1.png" class="cards__item">
+      <img src="images/block4/cards3/Card_2.png" class="cards__item">
+      <img src="images/block4/cards3/Card_3.png" class="cards__item">
+      <img src="images/block4/cards3/Card_4.png" class="cards__item cards__item--last">
+  </div>
+  <button class="button button--outline gallery__button">See more</button>
+</div>
+</div>
+
+<div class="section">
+<div class="flexbox-ver partners">
+    <h1 class="subtitle partners__subtitle">Partners</h1>
+    <h2 class="p partners__p">We focus on ergonomics and meeting you where you work. It's only a keystroke away.
+    </h2>
+    <div class="partners__icons icons">
+        <div class="flexbox-hor icons__block1">
+            <img src="images/icons/block5/ico1.svg" class="icons__item">
+            <img src="images/icons/block5/ico2.svg" class="icons__item">
+            <img src="images/icons/block5/ico3.svg" class="icons__item">
+        </div>
+        <div class="flexbox-hor icons__block2">
+            <img src="images/icons/block5/ico4.svg" class="icons__item icons__item--telephone4">
+            <img src="images/icons/block5/ico5.svg" class="icons__item icons__item--telephone5">
+            <img src="images/icons/block5/ico6.svg" class="icons__item icons__item--telephone6">
+        </div>
+    </div>
+    <button class="button button--outline partners__button">All Partners</button>
+</div>
+</div>
+</div>
+
+
+<div class="section">
+<div class="flexbox-ver testimonials">
+    <h1 class="subtitle testimonials__subtitle">Testimonials</h1>
+    <div class="flexbox-hor testimonials-list">
+        <div class="flexbox-ver testimonials__item">
+            <div class="flexbox-hor testimonials__item-creator">
+                <img src="images/icons/block6/computer/avatar1.svg" class="creator__avatar computer">
+                <img src="images/icons/block6/telephone/avatar1.svg" class="creator__avatar telephone">
+                <div class="flexbox-ver creator__info">
+                    <a href="#" class="link creator__info-name computer">Claire Bell</a>
+                    <a href="#" class="link creator__info-name telephone">Wade Steward</a>     
+                    <div class="link creator__info-work computer">Designer</div>
+                    <div class="link creator__info-work telephone">Designer</div>
+                </div>
+            </div>
+            <div class="link testimonials__item-text computer">Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year.your financial goal for the month and year.</div>
+            <div class="link testimonials__item-text telephone">Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year.your financial goal for the month and year.</div>
+        </div>
+       <div class="flexbox-ver testimonials__item">
+            <div class="flexbox-hor testimonials__item-creator">
+                <img src="images/icons/block6/computer/avatar2.svg" class="creator__avatar computer">
+                <img src="images/icons/block6/telephone/avatar2.svg" class="creator__avatar telephone">
+                <div class="flexbox-ver creator__info">
+                    <a href="#" class="link creator__info-name computer">Francisco Lane</a>
+                    <a href="#" class="link creator__info-name telephone">Philip Watson</a>     
+                    <div class="link creator__info-work computer">Designer</div>
+                    <div class="link creator__info-work telephone">Designer</div>
+                </div>
+            </div>
+            <div class="link testimonials__item-text computer">Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</div>
+            <div class="link testimonials__item-text telephone">Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year.your financial goal for the month and year.</div>
+        </div>
+        <div class="flexbox-ver testimonials__item">
+            <div class="flexbox-hor testimonials__item-creator">
+                <img src="images/icons/block6/computer/avatar3.svg" class="creator__avatar computer">
+                <img src="images/icons/block6/telephone/avatar3.svg" class="creator__avatar telephone">
+                <div class="flexbox-ver creator__info">
+                    <a href="#" class="link creator__info-name computer">Ralph Fisher</a>
+                    <a href="#" class="link creator__info-name telephone">Arthur Wilson</a>     
+                    <div class="link creator__info-work computer">Designer</div>
+                    <div class="link creator__info-work telephone">Designer</div>
+                </div>
+            </div>
+            <div class="link testimonials__item-text computer">Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</div>
+            <div class="link testimonials__item-text telephone">Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year.your financial goal for the month and year.</div>
+        </div>
+        <div class="flexbox-ver testimonials__item">
+            <div class="flexbox-hor testimonials__item-creator">
+                <img src="images/icons/block6/computer/avatar4.svg" class="creator__avatar computer">
+                <img src="images/icons/block6/telephone/avatar4.svg" class="creator__avatar telephone">
+                <div class="flexbox-ver creator__info">
+                    <a href="#" class="link creator__info-name computer">Jorge Murphy</a>
+                    <a href="#" class="link creator__info-name telephone">Regina Black</a>     
+                    <div class="link creator__info-work computer">Designer</div>
+                    <div class="link creator__info-work telephone">Designer</div>
+                </div>
+            </div>
+            <div class="link testimonials__item-text computer">Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</div>
+            <div class="link testimonials__item-text telephone">Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year.your financial goal for the month and year.</div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="section">
+    <div class="opentype">
+        <div class="flexbox-ver opentype__leftcontent">
+            <div class="subtitle opentype__leftcontent-subtitle">OpenType features and Variable fonts</div>
+            <button class="button opentype__leftcontent-button">Try For Free</button>
+        </div>
+        <div class="flexbox-hor opentype__rightcontent">
+            <img src="images/block7/pic1.png" class="opentype__rightcontent-pic computer">
+            <img src="images/block7/pic2.png" class="opentype__rightcontent-pic telephone">
+        </div>
+    </div>
+</div>
+<footer class="section">
+    <div class="flexbox-hor footer">
+        <div class="footer__nav flexbox-hor nav">
+            <div class="flexbox-ver nav__column">
+                <div class="p nav__column--p">Fingertipe</div>
+                <div class="column__links flexbox-ver links">
+                    <a href="#" class="link links__item">Home</a>
+                    <a href="#" class="link links__item">Examples</a>
+                    <a href="#" class="link links__item">Pricing</a>
+                    <a href="#" class="link links__item">Updates</a>
+                </div>
+            </div>
+            <div class="nav__column">
+                <div class="p nav__column--p">Resources</div>
+                <div class="column__links flexbox-ver links">
+                    <a href="#" class="link links__item">Home</a>
+                    <a href="#" class="link links__item">Examples</a>
+                    <a href="#" class="link links__item">Pricing</a>
+                    <a href="#" class="link links__item">Updates</a>
+                </div>
+            </div>
+            <div class="nav__column">
+                <div class="p nav__column--p">About</div>
+                <div class="column__links flexbox-ver links">
+                    <a href="#" class="link links__item">Home</a>
+                    <a href="#" class="link links__item">Examples</a>
+                    <a href="#" class="link links__item">Pricing</a>
+                    <a href="#" class="link links__item">Updates</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__socnet flexbox-ver socnet">
+            <div class="socnet__address flexbox-hor address">
+                <img src="images/icons/block8/map.svg" class="address__ico">
+                <div class="link address__text--map">7480 Mockingbird Hill</div>
+            </div>
+            <div class="socnet__address flexbox-hor address">
+                <img src="images/icons/block8/phone.svg" class="address__ico">
+                <div class="link address__text--phone">(239) 555-0108</div>
+            </div>
+            <div class="flexbox-hor socnet__icons">
+                <img src="images/icons/block8/tw.svg" class="socnet__icons--item">
+                <img src="images/icons/block8/fb.svg" class="socnet__icons--item">
+                <img src="images/icons/block8/in.svg" class="socnet__icons--item">
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
 </html>
