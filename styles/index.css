@@ -593,6 +593,15 @@
 	margin-right: 0px	;
 }
 
+
+
+/*------------JS--------------*/
+
+.hidden-obj{
+	display: none;
+}
+
+
 @media screen and (min-width: 600px){
 	.navbar__buttons-burger{
 		display: none;

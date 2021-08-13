@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/index.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="js/index.js"></script>
     <title>Title</title>
 </head>
 <body class = "body">
@@ -117,7 +118,7 @@
       <img src="images/block4/cards1/Card_3.png" class="cards__item">
       <img src="images/block4/cards1/Card_4.png" class="cards__item cards__item--last">
   </div>
-  <div class ="gallery__cards flexbox-hor cards cards--computer">
+  <div class ="gallery__cards flexbox-hor cards hidden-obj cards--computer" id="cards2">
       <img src="images/block4/cards2/Card_1.png" class="cards__item">
       <img src="images/block4/cards2/Card_2.png" class="cards__item">
       <img src="images/block4/cards2/Card_3.png" class="cards__item cards__item--last">
@@ -128,7 +129,7 @@
       <img src="images/block4/cards3/Card_3.png" class="cards__item">
       <img src="images/block4/cards3/Card_4.png" class="cards__item cards__item--last">
   </div>
-  <button class="button button--outline gallery__button">See more</button>
+  <button class="button button--outline gallery__button" onclick="openObject('cards2', this);">See more</button>
 </div>
 </div>
 
