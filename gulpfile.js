@@ -39,4 +39,3 @@ exports.default = function(){
   watch('index.html',series(reloadBrowser));
 }
 
-exports.styles = styles;

@@ -1,105 +1,137 @@
-$bc: #181818;
-$jj: 0px;
+$background-color: #181818;
+$color-lite: #FFFFFF;
+
+
+$font-family: 'Roboto';
+$font-weight--normal: 500;
+$font-weight--tiny: 400; 
+$letter-spacing: 0.2px;
+
+$link--font-size: 16px;
+$link--line-height: 24px;
+
+$p--font-size: 20px;
+$p--line-height: 30px;
+
+$subtitle--font-size: 52px;
+$subtitle--line-height: 62px;
+
+$title--font-size: 80px;
+$title--line-height: 88px;
+
+$button--font-size: 17px;
+$button--line-height: 25px;
+$button--box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+$button--filter drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+$button--border: 1px solid #FFFFFF;
+$button--background: #4452FE;
+$button--padding1: 20px 40px;
+$button--padding2: 13.5px 40px;
+
+$gradient: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 66.15%);
+$gradient--mob: linear-gradient(180deg, rgba(30, 30, 30, 0) 0%, #0E0E0E 100%);
+
+
 
 .body{
-	background: $bc;
+	background: $background-color;
 	margin: 0px;
 } 
 
 /*...........styles...........*/ 
 
 .link{
-	font-family: 'Roboto';
-	font-size: 16px;
+	font-family: $font-family;
+	font-size: $link--font-size;
 	font-style: normal;
-	font-weight: 500;
-	letter-spacing: 0.2px;
+	font-weight: $font-weight--normal;
+	letter-spacing: $letter-spacing;
 	text-align: left;
-	line-height: 24px;
-	color: #FFFFFF;
+	line-height: $link--line-height;
+	color: $color-lite;
 } 
 
 .link:link{
 	text-decoration: none;
-	color: #FFFFFF;
+	color: $color-lite;
 } 
 
 .link:visited{
 	text-decoration: none;
-	color: #FFFFFF;
+	color: $color-lite;
 } 
 
 .link:active{
 	text-decoration: none;
-	color: #FFFFFF;
+	color: $color-lite;
 } 
 
 .title{
-	font-size: 80px;
-	line-height: 88px;
-	font-family: 'Roboto';
-	color: #FFFFFF;
-	font-weight: 500;
+	font-size: $title--font-size;
+	line-height: $title--line-height;
+	font-family: $font-family;
+	color: $color-lite;
+	font-weight: $font-weight--normal;
 	font-style: normal;
-	letter-spacing: 0.2px;
+	letter-spacing: $letter-spacing;
 } 
 
 .subtitle{
-	font-size: 52px;
-	line-height: 62px;
-	font-family: 'Roboto';
-	color: #FFFFFF;
-	font-weight: 400;
+	font-size: $subtitle--font-size;
+	line-height: $subtitle--line-height;
+	font-family: $font-family;
+	color: $color-lite;
+	font-weight: $font-weight--tiny;
 	font-style: normal;
-	letter-spacing: 0.2px;
+	letter-spacing: $letter-spacing;
 } 
 
 .p{
-	font-size: 20px;
-	line-height: 30px;
-	font-family: 'Roboto';
-	color: #FFFFFF;
-	font-weight: 400;
+	font-size: $p--font-size;
+	line-height: $p--line-height;
+	font-family: $font-family;
+	color: $color-lite;
+	font-weight: $font-weight--tiny;
 	font-style: normal;
-	letter-spacing: 0.2px;
+	letter-spacing: $letter-spacing;
 } 
 
 .button{
 	cursor: pointer;
-	font-family: 'Roboto';
-	line-height: 25px;
-	font-size: 17px;
-	color: #FFFFFF;
+	font-family: $font-family;
+	line-height: $button--line-height;
+	font-size: $button--font-size;
+	color: $color-lite;
 	font-style: normal;
-	font-weight: 500;
-	letter-spacing: 0.2px;
-	background: #4452FE;
+	font-weight: $font-weight--normal;
+	letter-spacing: $letter-spacing;
+	background: $button--background	;
 	border: none;
-	box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
-	padding: 20px 40px;
+	box-shadow: $button--box-shadow;
+	padding: $button--padding1;
 } 
 
 .button--outline{
-	border: 1px solid #FFFFFF;
+	border: $button-border;
 	box-sizing: border-box;
-	filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+	filter: $button--filter;
 	box-shadow: none;
-	background: #181818;
-	padding: 13.5px 40px;
+	background: $background-color;
+	padding: $button--padding2;
 } 
 
 .gradient{
-	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 66.15%);
+	background: $gradient ;
 } 
 
 .text__block--style1{
-	font-weight: 500;
+	font-weight: $font-weight--normal;
 	letter-spacing: 0.1px;
 } 
 
 .text__block--style2{
-	color: #FFFFFF;
-	font-weight: 400;
+	color: $color-lite;
+	font-weight: $font-weight--tiny;
 } 
 
 /*...........blocks...........*/ 
@@ -183,7 +215,7 @@ $jj: 0px;
 } 
 
 .header__buttons-learn{
-	padding: 20px 40px;
+	padding: button--padding1;
 } 
 
 .navbar__buttons-login{
@@ -309,7 +341,7 @@ $jj: 0px;
 } 
 
 .tab{
-	background: #FFFFFF;
+	background: $color-lite;
 	border: 1px solid #D3D3D3;
 	box-sizing: border-box;
 	box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
@@ -319,7 +351,7 @@ $jj: 0px;
 
 .tab__title{
 	color: #000000;
-	font-weight: 500;
+	font-weight: font-weight--normal;
 	letter-spacing: 0.1px;
 	text-align: center;
 } 
@@ -603,13 +635,13 @@ $jj: 0px;
 	/*...........styles...........*/
 	
 	.title{
-		font-size: 52px;
+		font-size: $subtitle--font-size;
 		line-height: 62px;
-		font-weight: 400;
+		font-weight: font-weight--tiny;
 	}
 
 	.gradient{
-		background: linear-gradient(180deg, rgba(30, 30, 30, 0) 0%, #0E0E0E 100%);
+		background: $gradient-mob;
 	}
 
 	.screens--style{
