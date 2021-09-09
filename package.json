@@ -4,6 +4,7 @@
   "description": "New site",
   "main": "index.js",
   "scripts": {
+    "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,7 +17,18 @@
     "url": "https://github.com/SexBoyy/land/issues"
   },
   "homepage": "https://github.com/SexBoyy/land#readme",
-  "dependencies": {
-    "postcss": "^8.3.6"
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-watch": "^5.0.1",
+    "postcss": "^8.3.6",
+    "postcss-css-variables": "^0.18.0",
+    "postcss-import": "^14.0.2",
+    "postcss-nested": "^5.0.6",
+    "postcss-simple-vars": "^6.0.3"
   }
 }
