@@ -1,37 +1,4 @@
-$background-color: #181818;
-$color-lite: #FFFFFF;
-
-
-$font-family: 'Roboto';
-$font-weight--normal: 500;
-$font-weight--tiny: 400; 
-$letter-spacing: 0.2px;
-
-$link--font-size: 16px;
-$link--line-height: 24px;
-
-$p--font-size: 20px;
-$p--line-height: 30px;
-
-$subtitle--font-size: 52px;
-$subtitle--line-height: 62px;
-
-$title--font-size: 80px;
-$title--line-height: 88px;
-
-$button--font-size: 17px;
-$button--line-height: 25px;
-$button--box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
-$button--filter: (0px 4px 31px rgba(0, 0, 0, 0.15));
-$button--border: 1px solid #FFFFFF;
-$button--background: #4452FE;
-$button--padding1: 20px 40px; 
-$button--padding2: 13.5px 40px;
-
-$gradient: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 66.15%);
-$gradient--mob: linear-gradient(180deg, rgba(30, 30, 30, 0) 0%, #0E0E0E 100%);
-
-
+@import "vars.css";
 
 .body{
 	background: $background-color;

@@ -32,7 +32,7 @@ exports.default = function(cb){
         }
     });
 
-  watch('./styles/index.css', series(styles, reloadBrowser));
+  watch('./styles/*.css', series(styles, reloadBrowser));
   watch('index.html',series(reloadBrowser));
   cb();
 }
